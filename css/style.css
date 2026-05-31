@@ -1,0 +1,116 @@
+body{
+    font-family: Arial;
+    background-color: #f5f5f5;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+form{
+    margin-bottom: 20px;
+}
+
+input{
+    padding: 10px;
+    margin: 5px;
+}
+
+button{
+    padding: 10px 15px;
+    background-color: hotpink;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+table{
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+    background-color: white;
+}
+
+th, td{
+    border: 1px solid gray;
+    padding: 10px;
+    text-align: center;
+}
+
+th{
+    background-color: hotpink;
+    color: white;
+}
+
+td a{
+   padding: 6px 12px;
+   background-color: hotpink;
+   color: white;
+   border-radius: 5px;
+   text-decoration: none;
+   margin: 5px;
+   display: inline-block;
+}
+
+.chart-container{
+    width: 300px;
+    margin: 30px auto;
+}
+
+h1, h2, h3{
+    text-align: center;
+}
+
+.dark{
+    background-color: #1e1e1e;
+    color: white;
+}
+
+.dark table{
+    background-color: #2c2c2c;
+    color: white;
+}
+
+.dark th{
+    background-color: hotpink;
+}
+
+#dark-btn{
+    padding: 10px 15px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+#report-btn{
+    padding: 10px 15px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+#logout-btn{
+    padding: 10px 15px;
+    background-color: crimson;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.warning{
+    color: red;
+    background-color: #ffe5e5;
+    padding: 10px;
+    border-radius: 5px;
+    width: fit-content;
+    margin: 20px auto;
+}
